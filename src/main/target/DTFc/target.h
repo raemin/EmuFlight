@@ -133,8 +133,7 @@
 
 // -- Modification RAOUL pour réduire l empreinte mémoire (le protocole PPM a ete retire)
 //define DEFAULT_RX_FEATURE      FEATURE_RX_PPM
-// cette ligne devrait fonctionner, mais il faudrait aussi préseclectionner Spectrum1024, 
-// donc KO pour le momment
+// cette ligne devrait fonctionner, mais il faudrait aussi pré-seclectionner UART3 en tant que RX, 
 #define DEFAULT_RX_FEATURE      FEATURE_RX_SERIAL
 #define SERIALRX_PROVIDER       SERIALRX_SPEKTRUM2048
 
